@@ -17,4 +17,4 @@ def get_data_parsed(template_path, data_file_path):
 
     # print(template_match_data)
 
-    return template_match_data
+    return template_match_data[0]

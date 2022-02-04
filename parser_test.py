@@ -5,6 +5,6 @@ template_file_path = 'textfsm_templates\cisco_show_clock.template'
 
 output = parser.get_data_parsed(template_file_path, text_file_path,)
 
-print(output)
+print(output[0])
 
 
